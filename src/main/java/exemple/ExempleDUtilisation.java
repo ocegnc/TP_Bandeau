@@ -4,6 +4,7 @@ import bandeau.Bandeau;
 
 import java.awt.Color;
 import java.awt.Font;
+import java.util.ArrayList;
 
 public class ExempleDUtilisation {
 
@@ -57,5 +58,7 @@ public class ExempleDUtilisation {
         monBandeau.setMessage("Terminé");
         monBandeau.sleep(3000);
         monBandeau.close();
+
+
     }
 }
